@@ -1,4 +1,4 @@
 async def on_message(message):
     if message.guild is None:
-    if message.content
+    if 'Apply' in message.content
         await message.author.send(なんたら)
