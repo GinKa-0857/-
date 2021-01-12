@@ -1,0 +1,3 @@
+async def on_message(message):
+    if message.guild is None:
+        await message.channel.send(なんたら)
