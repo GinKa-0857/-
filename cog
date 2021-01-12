@@ -1,4 +1,6 @@
 from discord.ext import commands # Bot Commands Frameworkのインポート
 import discord
 
-class OLTS():
+#OLTSクラスのインストラクタ。Botを受け取ってインスタンス変数として保持する。
+class OLTS(commands.Cog):
+    def __init__(self)
