@@ -3,4 +3,4 @@ import discord
 
 #OLTSクラスのインストラクタ。Botを受け取ってインスタンス変数として保持する。
 class OLTS(commands.Cog):
-    def __init__(self)
+    def __init__(self,bot)
